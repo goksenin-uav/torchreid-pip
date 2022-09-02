@@ -3,7 +3,7 @@
   Torchreid-Pip: Packaged version of Torchreid 
 </h1>
 <h4>
-    <img width="700" alt="teaser" src="doc/logo.png">
+    <img width="700" alt="teaser" src="https://raw.githubusercontent.com/goksenin-uav/torchreid-pip/main/doc/logo.png">
 </h4>
 </div>
 
