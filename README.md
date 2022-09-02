@@ -2,6 +2,9 @@
 <h1>
   Torchreid-Pip: Packaged version of Torchreid 
 </h1>
+<h4>
+    <img width="700" alt="teaser" src="doc/logo.png">
+</h4>
 </div>
 
 This repo is a packaged version of the [Torchreid](https://github.com/KaiyangZhou/deep-person-reid) algorithm.
