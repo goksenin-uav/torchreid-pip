@@ -13,14 +13,12 @@ This repo is a packaged version of the [Torchreid](https://github.com/KaiyangZho
 pip install torchreid
 ```
 
-### Detection Model + StrongSort 
-Get started: 30 seconds to Torchreid
-
-1. Import ``torchreid``
+### Overview
+##### 1. Import ``torchreid``
 ```python
 import torchreid
 ```
-2. Load data manager
+##### 2. Load data manager
 
 ```python 
 datamanager = torchreid.data.ImageDataManager(
@@ -34,7 +32,7 @@ datamanager = torchreid.data.ImageDataManager(
     transforms=["random_flip", "random_crop"]
 )
 ```
-3 Build model, optimizer and lr_scheduler
+##### 3 Build model, optimizer and lr_scheduler
 
 ```python 
 model = torchreid.models.build_model(
@@ -58,7 +56,7 @@ scheduler = torchreid.optim.build_lr_scheduler(
     stepsize=20
 )
 ```
-4. Build engine
+##### 4. Build engine
 
 ```python
 engine = torchreid.engine.ImageSoftmaxEngine(
@@ -69,7 +67,7 @@ engine = torchreid.engine.ImageSoftmaxEngine(
     label_smooth=True
 )
 ```
-5. Run training and test
+##### 5. Run training and test
 
 ```python
 engine.run(
