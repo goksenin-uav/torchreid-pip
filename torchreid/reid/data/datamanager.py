@@ -1,9 +1,9 @@
 from __future__ import division, print_function, absolute_import
 import torch
 
-from torchreid.data.sampler import build_train_sampler
-from torchreid.data.datasets import init_image_dataset, init_video_dataset
-from torchreid.data.transforms import build_transforms
+from reid.data.sampler import build_train_sampler
+from reid.data.datasets import init_image_dataset, init_video_dataset
+from reid.data.transforms import build_transforms
 
 
 class DataManager(object):

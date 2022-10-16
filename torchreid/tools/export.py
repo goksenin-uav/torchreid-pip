@@ -7,8 +7,8 @@ import torch
 import pandas as pd
 import subprocess
 
-from torchreid.utils.feature_extractor import FeatureExtractor
-from torchreid.models import build_model
+from reid.utils.feature_extractor import FeatureExtractor
+from reid.models import build_model
 
 __model_types = [
     'resnet50', 'mlfn', 'hacnn', 'mobilenetv2_x1_0', 'mobilenetv2_x1_4',

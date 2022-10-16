@@ -4,7 +4,7 @@ import numpy as np
 import os.path as osp
 import zipfile
 
-from torchreid.utils import read_json, write_json
+from reid.utils import read_json, write_json
 
 from ..dataset import ImageDataset
 

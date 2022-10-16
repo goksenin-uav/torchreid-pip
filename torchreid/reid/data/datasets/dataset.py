@@ -6,7 +6,7 @@ import tarfile
 import zipfile
 import torch
 
-from torchreid.utils import read_image, download_url, mkdir_if_missing
+from reid.utils import read_image, download_url, mkdir_if_missing
 
 
 class Dataset(object):

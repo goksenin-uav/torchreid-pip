@@ -3,7 +3,7 @@ import glob
 import os.path as osp
 from scipy.io import loadmat
 
-from torchreid.utils import read_json, write_json
+from reid.utils import read_json, write_json
 
 from ..dataset import VideoDataset
 

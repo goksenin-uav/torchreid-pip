@@ -10,12 +10,12 @@ import torch
 import torch.nn as nn
 
 import torchreid
-from torchreid.utils import (
+from reid.utils import (
     Logger, AverageMeter, check_isfile, open_all_layers, save_checkpoint,
     set_random_seed, collect_env_info, open_specified_layers,
     load_pretrained_weights, compute_model_complexity
 )
-from torchreid.data.transforms import (
+from reid.data.transforms import (
     Resize, Compose, ToTensor, Normalize, Random2DTranslation,
     RandomHorizontalFlip
 )

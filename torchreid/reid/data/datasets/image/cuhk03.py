@@ -1,7 +1,7 @@
 from __future__ import division, print_function, absolute_import
 import os.path as osp
 
-from torchreid.utils import read_json, write_json, mkdir_if_missing
+from reid.utils import read_json, write_json, mkdir_if_missing
 
 from ..dataset import ImageDataset
 
