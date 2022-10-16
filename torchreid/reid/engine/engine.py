@@ -8,12 +8,12 @@ import torch
 from torch.nn import functional as F
 from torch.utils.tensorboard import SummaryWriter
 
-from torchreid import metrics
-from reid.utils import (
+from torchreid.reid import metrics
+from torchreid.reid.utils import (
     MetricMeter, AverageMeter, re_ranking, open_all_layers, save_checkpoint,
     open_specified_layers, visualize_ranked_results
 )
-from reid.losses import DeepSupervision
+from torchreid.reid.losses import DeepSupervision
 
 
 class Engine(object):

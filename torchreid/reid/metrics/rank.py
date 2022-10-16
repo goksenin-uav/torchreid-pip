@@ -4,7 +4,7 @@ import warnings
 from collections import defaultdict
 
 try:
-    from torchreid.metrics.rank_cylib.rank_cy import evaluate_cy
+    from torchreid.reid.metrics.rank_cylib.rank_cy import evaluate_cy
     IS_CYTHON_AVAI = True
 except ImportError:
     IS_CYTHON_AVAI = False

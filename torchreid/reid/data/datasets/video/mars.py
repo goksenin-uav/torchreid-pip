@@ -3,7 +3,7 @@ import os.path as osp
 import warnings
 from scipy.io import loadmat
 
-from ..dataset import VideoDataset
+from torchreid.reid.data.datasets.dataset import VideoDataset
 
 
 class Mars(VideoDataset):

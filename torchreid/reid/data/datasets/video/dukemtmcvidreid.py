@@ -3,9 +3,9 @@ import glob
 import os.path as osp
 import warnings
 
-from reid.utils import read_json, write_json
+from torchreid.reid.utils import read_json, write_json
 
-from ..dataset import VideoDataset
+from torchreid.reid.data.datasets.dataset import VideoDataset
 
 
 class DukeMTMCVidReID(VideoDataset):

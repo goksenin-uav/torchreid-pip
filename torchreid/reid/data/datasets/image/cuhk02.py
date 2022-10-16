@@ -2,8 +2,7 @@ from __future__ import division, print_function, absolute_import
 import glob
 import os.path as osp
 
-from ..dataset import ImageDataset
-
+from torchreid.reid.data.datasets.dataset import ImageDataset
 
 class CUHK02(ImageDataset):
     """CUHK02.

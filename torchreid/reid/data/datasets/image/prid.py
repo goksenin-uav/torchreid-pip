@@ -2,9 +2,9 @@ from __future__ import division, print_function, absolute_import
 import random
 import os.path as osp
 
-from reid.utils import read_json, write_json
+from torchreid.reid.utils import read_json, write_json
 
-from ..dataset import ImageDataset
+from torchreid.reid.data.datasets.dataset import ImageDataset
 
 
 class PRID(ImageDataset):

@@ -1,9 +1,9 @@
 from __future__ import division, print_function, absolute_import
 
-from torchreid import metrics
-from reid.losses import TripletLoss, CrossEntropyLoss
+from torchreid.reid import metrics
+from torchreid.reid.losses import TripletLoss, CrossEntropyLoss
 
-from ..engine import Engine
+from torchreid.reid.engine.engine import Engine
 
 
 class ImageTripletEngine(Engine):

@@ -1,7 +1,7 @@
 from __future__ import division, print_function, absolute_import
 import torch
 
-from reid.engine.image import ImageTripletEngine
+from torchreid.reid.engine.image import ImageTripletEngine
 
 
 class VideoTripletEngine(ImageTripletEngine):

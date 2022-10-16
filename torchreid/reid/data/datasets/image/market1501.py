@@ -4,7 +4,7 @@ import glob
 import os.path as osp
 import warnings
 
-from ..dataset import ImageDataset
+from torchreid.reid.data.datasets.dataset import ImageDataset
 
 
 class Market1501(ImageDataset):

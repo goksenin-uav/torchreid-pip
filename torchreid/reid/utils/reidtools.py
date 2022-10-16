@@ -4,7 +4,7 @@ import shutil
 import os.path as osp
 import cv2
 
-from .tools import mkdir_if_missing
+from torchreid.reid.utils.tools import mkdir_if_missing
 
 __all__ = ['visualize_ranked_results']
 

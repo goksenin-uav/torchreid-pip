@@ -3,7 +3,7 @@ import copy
 import glob
 import os.path as osp
 
-from ..dataset import ImageDataset
+from torchreid.reid.data.datasets.dataset import ImageDataset
 
 
 class CUHKSYSU(ImageDataset):

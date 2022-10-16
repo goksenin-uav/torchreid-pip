@@ -1,9 +1,9 @@
 from __future__ import division, print_function, absolute_import
 import os.path as osp
 
-from reid.utils import read_json, write_json, mkdir_if_missing
+from torchreid.reid.utils import read_json, write_json, mkdir_if_missing
 
-from ..dataset import ImageDataset
+from torchreid.reid.data.datasets.dataset import ImageDataset
 
 
 class CUHK03(ImageDataset):

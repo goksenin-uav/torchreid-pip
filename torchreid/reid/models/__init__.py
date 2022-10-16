@@ -1,26 +1,25 @@
 from __future__ import absolute_import
-import torch
 
-from .pcb import *
-from .mlfn import *
-from .hacnn import *
-from .osnet import *
-from .senet import *
-from .mudeep import *
-from .nasnet import *
-from .resnet import *
-from .densenet import *
-from .xception import *
-from .osnet_ain import *
-from .resnetmid import *
-from .shufflenet import *
-from .squeezenet import *
-from .inceptionv4 import *
-from .mobilenetv2 import *
-from .resnet_ibn_a import *
-from .resnet_ibn_b import *
-from .shufflenetv2 import *
-from .inceptionresnetv2 import *
+from torchreid.reid.models.pcb import *
+from torchreid.reid.models.mlfn import *
+from torchreid.reid.models.hacnn import *
+from torchreid.reid.models.osnet import *
+from torchreid.reid.models.senet import *
+from torchreid.reid.models.mudeep import *
+from torchreid.reid.models.nasnet import *
+from torchreid.reid.models.resnet import *
+from torchreid.reid.models.densenet import *
+from torchreid.reid.models.xception import *
+from torchreid.reid.models.osnet_ain import *
+from torchreid.reid.models.resnetmid import *
+from torchreid.reid.models.shufflenet import *
+from torchreid.reid.models.squeezenet import *
+from torchreid.reid.models.inceptionv4 import *
+from torchreid.reid.models.mobilenetv2 import *
+from torchreid.reid.models.resnet_ibn_a import *
+from torchreid.reid.models.resnet_ibn_b import *
+from torchreid.reid.models.shufflenetv2 import *
+from torchreid.reid.models.inceptionresnetv2 import *
 
 __model_factory = {
     # image classification models

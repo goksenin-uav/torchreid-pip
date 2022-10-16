@@ -1,10 +1,9 @@
 from __future__ import division, print_function, absolute_import
 
-from torchreid import metrics
-from reid.losses import CrossEntropyLoss
+from torchreid.reid import metrics
+from torchreid.reid.losses import CrossEntropyLoss
 
-from ..engine import Engine
-
+from torchreid.reid.engine.engine import Engine
 
 class ImageSoftmaxEngine(Engine):
     r"""Softmax-loss engine for image-reid.

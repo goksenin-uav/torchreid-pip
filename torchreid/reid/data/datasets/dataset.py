@@ -6,8 +6,7 @@ import tarfile
 import zipfile
 import torch
 
-from reid.utils import read_image, download_url, mkdir_if_missing
-
+from torchreid.reid.utils.tools import read_image, download_url, mkdir_if_missing
 
 class Dataset(object):
     """An abstract class representing a Dataset.

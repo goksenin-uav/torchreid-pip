@@ -2,9 +2,9 @@ from __future__ import division, print_function, absolute_import
 import glob
 import os.path as osp
 
-from reid.utils import read_json
+from torchreid.reid.utils import read_json
 
-from ..dataset import VideoDataset
+from torchreid.reid.data.datasets.dataset import VideoDataset
 
 
 class PRID2011(VideoDataset):

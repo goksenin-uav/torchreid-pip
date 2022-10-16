@@ -3,7 +3,7 @@ import warnings
 import torch
 import torch.nn as nn
 
-from .radam import RAdam
+from torchreid.reid.optim.radam import RAdam
 
 AVAI_OPTIMS = ['adam', 'amsgrad', 'sgd', 'rmsprop', 'radam']
 

@@ -13,7 +13,7 @@ import torch
 from torch.nn import functional as F
 
 import torchreid
-from reid.utils import (
+from torchreid.reid.utils import (
     check_isfile, mkdir_if_missing, load_pretrained_weights
 )
 
